@@ -1,40 +1,79 @@
-$Bright-orange: hsl(31, 77%, 52%);
-$Dark-cyan: hsl(184, 100%, 22%);
-$Very-dark-cyan: hsl(179, 100%, 13%);
+@import "components/globals";
 
-$Transparent-white: hsla(0, 0%, 100%, 0.75);
-$Very-light-gray: hsl(0, 0%, 95%);
+@mixin cards {
+    max-width: 375px;
+    height: 33%;
+    padding: 3.1875rem;
+    min-height: 500px;
+    
+    img {
+        width: 100%;
+        max-width: 70px;
+        margin-bottom: 40px;
+    }
+    h1 {
+        font-size: 40px;
+        font-family: $fuente1;
+        font-weight: bold;
+        color: $Very-light-gray;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+    p {
+        color: $Transparent-white;
+        font-family: $fuente2;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    button {
+        font-size: 15px;
+        font-family: $fuente2;
+        font-weight: 400;
+        border-radius: 30px;
+        border: 0;
+        padding: 20px 40px;
+        background-color: $Very-light-gray;
+        
+    }
+}
 
-$fuente1: 'Big Shoulders Display', cursive;
-$fuente2:'Lexend Deca', sans-serif;
-
-/*
-  Josh's Custom CSS Reset
-  https://www.joshwcomeau.com/css/custom-css-reset/
-*/
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-}
-html, body {
-  height: 100%;
-}
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
 }
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-input, button, textarea, select {
-  font: inherit;
-}
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
-}
-#root, #__next {
-  isolation: isolate;
+
+.container {
+    width: 90vw;
+    height: 90vh;
+    &__yellow {
+        @include cards;
+        background-color: $Bright-orange;
+        button {
+            color: $Bright-orange;
+        }
+    }
+    &__blue {
+        @include cards;
+        background-color: $Dark-cyan;
+        button {
+            color: $Dark-cyan;
+        }
+    }
+    &__green {
+        @include cards;
+        background-color: $Very-dark-cyan;
+        button {
+            color: $Very-dark-cyan;
+        }
+    }
 }
