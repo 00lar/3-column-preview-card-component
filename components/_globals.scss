@@ -38,3 +38,41 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+@mixin cards {
+    max-width: 375px;
+    height: 33%;
+    padding: 3.1875rem;
+    min-height: 500px;
+    
+    img {
+        width: 100%;
+        max-width: 70px;
+        margin-bottom: 40px;
+    }
+    h1 {
+        font-size: 40px;
+        font-family: $fuente1;
+        font-weight: bold;
+        color: $Very-light-gray;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+    p {
+        color: $Transparent-white;
+        font-family: $fuente2;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    button {
+        font-size: 15px;
+        font-family: $fuente2;
+        font-weight: 400;
+        border-radius: 30px;
+        border: 0;
+        padding: 20px 40px;
+        background-color: $Very-light-gray;
+        
+    }
+}
