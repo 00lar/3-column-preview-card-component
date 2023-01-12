@@ -96,6 +96,12 @@ body {
   padding: 20px 40px;
   background-color: hsl(0deg, 0%, 95%);
 }
+.container__yellow button:hover {
+  color: hsl(0deg, 0%, 95%);
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid hsl(0deg, 0%, 95%);
+  cursor: pointer;
+}
 .container__yellow button {
   color: hsl(31deg, 77%, 52%);
 }
@@ -135,6 +141,12 @@ body {
   padding: 20px 40px;
   background-color: hsl(0deg, 0%, 95%);
 }
+.container__blue button:hover {
+  color: hsl(0deg, 0%, 95%);
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid hsl(0deg, 0%, 95%);
+  cursor: pointer;
+}
 .container__blue button {
   color: hsl(184deg, 100%, 22%);
 }
@@ -173,6 +185,12 @@ body {
   border: 0;
   padding: 20px 40px;
   background-color: hsl(0deg, 0%, 95%);
+}
+.container__green button:hover {
+  color: hsl(0deg, 0%, 95%);
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid hsl(0deg, 0%, 95%);
+  cursor: pointer;
 }
 .container__green button {
   color: hsl(179deg, 100%, 13%);

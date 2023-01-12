@@ -73,6 +73,11 @@ p, h1, h2, h3, h4, h5, h6 {
         border: 0;
         padding: 20px 40px;
         background-color: $Very-light-gray;
-        
+    }
+    button:hover {
+        color: $Very-light-gray;
+        background-color: rgba(0, 0, 0, 0);
+        border: 1px solid $Very-light-gray;
+        cursor: pointer;
     }
 }
