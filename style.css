@@ -51,7 +51,7 @@ body {
 
 .container {
   width: 90vw;
-  max-width: 370px;
+  max-width: 23.125rem;
   height: 90vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -61,39 +61,39 @@ body {
           align-items: center;
 }
 .container__yellow {
-  max-width: 375px;
+  max-width: 23.4375rem;
   height: 33%;
   padding: 3.1875rem;
-  min-height: 500px;
+  min-height: 31.25rem;
   background-color: hsl(31deg, 77%, 52%);
 }
 .container__yellow img {
   width: 100%;
-  max-width: 70px;
-  margin-bottom: 40px;
+  max-width: 4.375rem;
+  margin-bottom: 2.5rem;
 }
 .container__yellow h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: "Big Shoulders Display", cursive;
   font-weight: bold;
   color: hsl(0deg, 0%, 95%);
   text-transform: uppercase;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 .container__yellow p {
   color: hsla(0deg, 0%, 100%, 0.75);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
-  line-height: 26px;
-  margin-bottom: 30px;
+  line-height: 1.625rem;
+  margin-bottom: 1.875rem;
 }
 .container__yellow button {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   border: 0;
-  padding: 20px 40px;
+  padding: 1.25rem 2.5rem;
   background-color: hsl(0deg, 0%, 95%);
 }
 .container__yellow button:hover {
@@ -106,39 +106,39 @@ body {
   color: hsl(31deg, 77%, 52%);
 }
 .container__blue {
-  max-width: 375px;
+  max-width: 23.4375rem;
   height: 33%;
   padding: 3.1875rem;
-  min-height: 500px;
+  min-height: 31.25rem;
   background-color: hsl(184deg, 100%, 22%);
 }
 .container__blue img {
   width: 100%;
-  max-width: 70px;
-  margin-bottom: 40px;
+  max-width: 4.375rem;
+  margin-bottom: 2.5rem;
 }
 .container__blue h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: "Big Shoulders Display", cursive;
   font-weight: bold;
   color: hsl(0deg, 0%, 95%);
   text-transform: uppercase;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 .container__blue p {
   color: hsla(0deg, 0%, 100%, 0.75);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
-  line-height: 26px;
-  margin-bottom: 30px;
+  line-height: 1.625rem;
+  margin-bottom: 1.875rem;
 }
 .container__blue button {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   border: 0;
-  padding: 20px 40px;
+  padding: 1.25rem 2.5rem;
   background-color: hsl(0deg, 0%, 95%);
 }
 .container__blue button:hover {
@@ -151,39 +151,39 @@ body {
   color: hsl(184deg, 100%, 22%);
 }
 .container__green {
-  max-width: 375px;
+  max-width: 23.4375rem;
   height: 33%;
   padding: 3.1875rem;
-  min-height: 500px;
+  min-height: 31.25rem;
   background-color: hsl(179deg, 100%, 13%);
 }
 .container__green img {
   width: 100%;
-  max-width: 70px;
-  margin-bottom: 40px;
+  max-width: 4.375rem;
+  margin-bottom: 2.5rem;
 }
 .container__green h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: "Big Shoulders Display", cursive;
   font-weight: bold;
   color: hsl(0deg, 0%, 95%);
   text-transform: uppercase;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 .container__green p {
   color: hsla(0deg, 0%, 100%, 0.75);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
-  line-height: 26px;
-  margin-bottom: 30px;
+  line-height: 1.625rem;
+  margin-bottom: 1.875rem;
 }
 .container__green button {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   border: 0;
-  padding: 20px 40px;
+  padding: 1.25rem 2.5rem;
   background-color: hsl(0deg, 0%, 95%);
 }
 .container__green button:hover {
