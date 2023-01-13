@@ -1,7 +1,28 @@
-@media (min-width: 1440px) {
-    .container {
-        display: flex;
-        max-width: 80vw;
-        height: auto;
-    }
+$xl: 1440px;
+$xxl:1600px;
+
+@mixin for-size($size) {
+    @if $size == xl {
+        @media (min-width: $xl) {
+            @content;
+        }
+    } @else if $size == xxl {
+           @media (min-width: $xxl) {
+            @content;
+           }
+        }
+    
 }
+
+    .container {
+        @include for-size(xl) {
+            display: flex;
+            max-width: 80vw;
+            height: auto;
+        }
+        @include for-size(xxl) {
+            h1 {
+            }
+        }
+
+    }
